@@ -21,7 +21,7 @@ static char defaultcmd[CMDLEN] = {0};
 
 
 void usage(FILE *f, const char *program) {
-     fprintf(f, "USAGE: %s <build|exec> [file]", program);
+     fprintf(f, "USAGE: %s <build|exec> [file]\n", program);
 }
 
 
